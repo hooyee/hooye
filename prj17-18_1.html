@@ -33,20 +33,20 @@
 	</head>
 	<body>
 		<script type="text/javascript">  
-document.write("<table>");   
-for (var x = 9; x>=1; x--)  
-{  
-    document.write("<tr>"); 
-	for(var i=1;i<10-x;i++){
-		 document.write("<td></td>");  
-	}	
-		for (var y = x; y>=1; y--)  
+		document.write("<table>");   
+		for (var x = 9; x>=1; x--)  
 		{  
-		
-        document.write("<th>"+y+"*"+x+"="+y*x+"</th>");   
-    }  
-}  
-document.write("</table>");
-</script>  
+		    document.write("<tr>"); 
+			for(var i=1;i<10-x;i++){
+				 document.write("<td></td>");  
+			}	
+				for (var y = x; y>=1; y--)  
+				{  
+
+			document.write("<th>"+y+"*"+x+"="+y*x+"</th>");   
+		    }  
+		}  
+		document.write("</table>");
+		</script>  
 	</body>
 </html>
