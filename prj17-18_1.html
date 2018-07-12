@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>倒置九九乘法口诀表</title>
+		<style type="text/css">
+			table{border: 1px groove;}
+			th{border: 1px solid;}
+			
+		</style>
+		<script>
+			document.write("九九乘法表");
+			document.write("<table>");
+     		for(var k = 1;k<=9;k++){
+     			document.write("<tr>");
+       			for(var j = 1;j<=k;j++){             
+       				document.write("<th>"+j+"*"+k+"="+(j*k)+"</th>");    
+            	}    
+         	}
+     		document.write("</table>");
+     	</Script>
+     	<script >
+     		document.write("倒置九九乘法表");
+			document.write("<table>");
+     		for(var k = 9;k>=1;k--){  
+     			document.write("<br>");
+       			for(var j = 1;j<=k;j++){             
+       				document.write(j+"*"+k+"="+(j*k)+"  ");    
+            	}    
+         	} 
+         	document.write("</table>");
+</script>
+	</head>
+	<body>
+		<script type="text/javascript">  
+document.write("<table>");   
+for (var x = 9; x>=1; x--)  
+{  
+    document.write("<tr>"); 
+	for(var i=1;i<10-x;i++){
+		 document.write("<td></td>");  
+	}	
+		for (var y = x; y>=1; y--)  
+		{  
+		
+        document.write("<th>"+y+"*"+x+"="+y*x+"</th>");   
+    }  
+}  
+document.write("</table>");
+</script>  
+	</body>
+</html>
