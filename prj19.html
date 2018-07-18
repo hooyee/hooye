@@ -101,7 +101,7 @@
         // 返回某个section下，所有所包含span内容为spanCont的LI标签
         var section = document.querySelector('#'+sectionId).querySelectorAll('span');
         for (var i=0;i<section.length;i++){
-        if(section[i].textContent === spanCont){
+        if(section[i].textContent == spanCont){
             console.log(section[i].parentNode);
         }
     }
